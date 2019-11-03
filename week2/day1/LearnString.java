@@ -20,7 +20,12 @@ public class LearnString {
 	 * 12)Immutable String, StringBuffer(ThreadSafe), StringBuilder(Not ThreadSafe) 
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		String str="Test";
+		char[] charArray = str.toCharArray();
+		for (char c : charArray) {
+			System.out.println(Character.toUpperCase(c));
+			
+		}
 
 	}
 
